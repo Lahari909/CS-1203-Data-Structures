@@ -1,0 +1,83 @@
+PS C:\Users\lahar\OneDrive\Documents\Data Structures> cd "c:\Users\lahar\OneDrive\Documents\Data Structures\" ; if ($?) { gcc Inorder_Iteration.c -o Inorder_Iteration } ; if ($?) { .\Inorder_Iteration }
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 1
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 6
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 8
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 2
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 7
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 1
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 4
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 3
+Give element to insert: 5
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 11
+
+          8
+
+                    7
+
+6
+
+                              5
+
+                    4
+
+          2
+
+                    1
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 5
+1 2 4 5 6 7 8
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 6
+1 2 4 5 6 7 8
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 7
+6 2 1 4 5 8 7
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 8
+6 2 1 4 5 8 7
+
+0. exit, 1. initialize, 2. search, 3. insert, 4. delete,
+ 5. recursive inorder, 6. iterative inorder, 7. recursive preorder, 8. iterative preorder, 9. recursive postorder
+10. free tree, 11. display. Input Choice: 0
+PS C:\Users\lahar\OneDrive\Documents\Data Structures> 
