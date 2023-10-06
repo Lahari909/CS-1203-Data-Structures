@@ -344,7 +344,6 @@ int main()
            case 2: printf("Give element to search: ");
                    scanf("%d", &elm);
 		   temp = search(root, elm);
-		   displayNode(temp);
                    break;
 
            case 3: printf("Give element to insert: ");
@@ -353,7 +352,6 @@ int main()
 		   	temp = root = insert(root, elm);
 		   else
 		   	temp = insert(root, elm);
-		   displayNode(temp);
                    break;
 
            case 4: printf("Give element to delete: ");
@@ -375,7 +373,6 @@ int main()
 		   else
 		   	temp = delete(root, elm);
 
-		   displayNode(temp);
                    break;
 
            case 5: recurinorder(root);
