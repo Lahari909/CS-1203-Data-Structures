@@ -1,0 +1,1 @@
+I used the code at https://www.geeksforgeeks.org/deletion-in-binary-search-tree/ with a few very minor changes for the recursive deletion function of a binary search tree.
