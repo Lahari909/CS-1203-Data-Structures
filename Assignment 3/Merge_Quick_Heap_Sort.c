@@ -9,7 +9,7 @@ void print(int *arr, int size) {
     printf("\n");
 }
 
-void merge(int *arr, int a, int b, int c, int *cct) {
+void merge(int *arr, int a, int b, int c, int *cct, int* sct) {
     int arr1[b - a + 1], arr2[c - b];
     int k = 0;
 
@@ -29,8 +29,8 @@ void merge(int *arr, int a, int b, int c, int *cct) {
 
     // Merge the two arrays back into the original array
     while (p < b - a + 1 && q < c - b) {
-        (*cct) = (*cct) + 3;
-
+        (*sct)++;
+        (*cct)++;
         if (arr1[p] <= arr2[q]) {
             arr[r] = arr1[p];
             p++;
@@ -43,11 +43,13 @@ void merge(int *arr, int a, int b, int c, int *cct) {
 
     // Copy remaining elements into the two arrays
     while (q < c - b) {
+        (*sct)++;
         arr[r] = arr2[q];
         q++;
         r++;
     }
     while (p < b - a + 1) {
+        (*sct)++;
         arr[r] = arr1[p];
         p++;
         r++;
@@ -55,17 +57,15 @@ void merge(int *arr, int a, int b, int c, int *cct) {
 }
 
 // Merge sort function
-void mergeSort(int *arr, int a, int c, int *cct) {
+void mergeSort(int *arr, int a, int c, int *cct, int* sct) {
     int b = a + (c - a) / 2;
-    (*cct)++;
-
     if (a < c) {
         //first half of array is sorted
-        mergeSort(arr, a, b, cct);
+        mergeSort(arr, a, b, cct, sct);
         //second half of array is sorted
-        mergeSort(arr, b + 1, c, cct);
+        mergeSort(arr, b + 1, c, cct, sct);
         //the two sorted halves are merged back together
-        merge(arr, a, b, c, cct);
+        merge(arr, a, b, c, cct, sct);
     }
 }
 
@@ -167,10 +167,11 @@ int main() {
     print(array, x);
 
     int mcct = 0;
-    mergeSort(array, a, c, &mcct);
+    int msct = 0;
+    mergeSort(array, a, c, &mcct, &msct);
     printf("Merge Sorted Array: ");
     print(array, x);
-    printf("Time Complexity: %d\n", mcct);
+    printf("Comparison Count: %d\nMove Count: %d\n", mcct, msct);
 
     int qcct = 0;
     int qsct = 0;
