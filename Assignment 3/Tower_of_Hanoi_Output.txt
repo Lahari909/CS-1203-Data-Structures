@@ -1,0 +1,130 @@
+Please enter the number of disks: 4
+Starting Arrangment of Towers 
+
+|      TTT      |               |               |   
+|     TTTTT     |               |               |   
+|    TTTTTTT    |               |               |   
+|   TTTTTTTTT   |               |               |   
+_________________________________________________
+
+Move 0 to 1
+
+|               |               |               |
+|     TTTTT     |               |               |
+|    TTTTTTT    |               |               |
+|   TTTTTTTTT   |      TTT      |               |
+_________________________________________________
+
+Move 0 to 2
+
+|               |               |               |
+|               |               |               |
+|    TTTTTTT    |               |               |
+|   TTTTTTTTT   |      TTT      |     TTTTT     |
+_________________________________________________
+
+Move 1 to 2
+
+|               |               |               |
+|               |               |               |
+|    TTTTTTT    |               |      TTT      |
+|   TTTTTTTTT   |               |     TTTTT     |
+_________________________________________________
+
+Move 0 to 1
+
+|               |               |               |
+|               |               |               |
+|               |               |      TTT      |
+|   TTTTTTTTT   |    TTTTTTT    |     TTTTT     |
+_________________________________________________
+
+Move 2 to 0
+
+|               |               |               |
+|               |               |               |
+|      TTT      |               |               |
+|   TTTTTTTTT   |    TTTTTTT    |     TTTTT     |
+_________________________________________________
+
+Move 2 to 1
+
+|               |               |               |
+|               |               |               |
+|      TTT      |     TTTTT     |               |
+|   TTTTTTTTT   |    TTTTTTT    |               |
+_________________________________________________
+
+Move 0 to 1
+
+|               |               |               |
+|               |      TTT      |               |
+|               |     TTTTT     |               |
+|   TTTTTTTTT   |    TTTTTTT    |               |
+_________________________________________________
+
+Move 0 to 2
+
+|               |               |               |
+|               |      TTT      |               |
+|               |     TTTTT     |               |
+|               |    TTTTTTT    |   TTTTTTTTT   |
+_________________________________________________
+
+Move 1 to 2
+
+|               |               |               |
+|               |               |               |
+|               |     TTTTT     |      TTT      |
+|               |    TTTTTTT    |   TTTTTTTTT   |
+_________________________________________________
+
+Move 1 to 0
+
+|               |               |               |
+|               |               |               |
+|               |               |      TTT      |
+|     TTTTT     |    TTTTTTT    |   TTTTTTTTT   |
+_________________________________________________
+
+Move 2 to 0
+
+|               |               |               |
+|               |               |               |
+|      TTT      |               |               |
+|     TTTTT     |    TTTTTTT    |   TTTTTTTTT   |
+_________________________________________________
+
+Move 1 to 2
+
+|               |               |               |
+|               |               |               |
+|      TTT      |               |    TTTTTTT    |
+|     TTTTT     |               |   TTTTTTTTT   |
+_________________________________________________
+
+Move 0 to 1
+
+|               |               |               |
+|               |               |               |
+|               |               |    TTTTTTT    |
+|     TTTTT     |      TTT      |   TTTTTTTTT   |
+_________________________________________________
+
+Move 0 to 2
+
+|               |               |               |
+|               |               |     TTTTT     |
+|               |               |    TTTTTTT    |
+|               |      TTT      |   TTTTTTTTT   |   
+_________________________________________________
+
+Move 1 to 2
+
+|               |               |      TTT      |
+|               |               |     TTTTT     |
+|               |               |    TTTTTTT    |
+|               |               |   TTTTTTTTT   |
+_________________________________________________
+
+Finished.
