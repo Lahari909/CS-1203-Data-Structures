@@ -13,10 +13,9 @@ void insertionSort(int* arr, int size) {
             sct++;
             cct++;
         }
-        sct++;
         arr[j + 1] = key;
     }
-    printf("Insertion Sort\nComparison Count: %d\nSwap Count: %d\n", cct, sct);
+    printf("Insertion Sort\nComparison Count: %d\nMove Count: %d\n", cct, sct);
 }
 
 void bubbleSort(int* arr, int size){
